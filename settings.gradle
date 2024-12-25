@@ -1,0 +1,15 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        jcenter() // اگر از این مخزن استفاده می‌کنید
+        maven { url 'https://jitpack.io' } // اگر از JitPack استفاده می‌کنید
+    }
+
+    plugins {
+        id 'com.android.application' version '7.3.1'
+    }
+}
+
+rootProject.name = "PhotEditorApp"
+include ':app'

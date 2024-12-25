@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item_result"
+        android:color="@color/teal_700"
+        android:icon="@drawable/ic_baseline_save_24"
+        android:title="Save" />
+
+    <item
+        android:color="@color/logger"
+        android:id="@+id/item_camera"
+        android:icon="@drawable/ic_baseline_camera_alt_24"
+        android:title="Camera" />
+
+    <item
+        android:id="@+id/item_gallery"
+        android:color="@color/newBlue"
+        android:icon="@drawable/ic_baseline_folder_24"
+        android:title="Gallery" />
+
+
+    <item
+        android:id="@+id/item_home"
+        android:checked="true"
+        android:color="@color/home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home" />
+
+</menu>
